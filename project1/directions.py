@@ -1,8 +1,10 @@
 import requests
 
+#here is where we enter the coordinates and state
 lat = 44.038966
 long =-123.087558
 state = "or"
+#my personal key I got when I registered to the website.
 key = "bf20a5bb85774b0c9e9b7b319c92040f"
 
 origen = "http://geoservices.tamu.edu/Services/ReverseGeocoding/WebService/v04_01/Rest/?lat=" + str(lat) + "&lon=" + str(long) + "&state=" + str(state) + "&apikey=" + key + "&format=json&notStore=false&version=4.10"
