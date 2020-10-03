@@ -16,7 +16,7 @@ def get_name(lat, long, st, key):
 
     return answer[1:]
 
-#here is where we enter the coordinates and state
+#here is where we enter the coordinates and state. Data for testing, this script could be import for main program
 lat =   44.048882
 long = -123.093602
 state = "or"
